@@ -4,7 +4,7 @@ Model View View-Model is introduced in last year’s Google I/O.This architectur
 # View-Model
 It is responsible for exposing methods, commands, and other properties that helps to maintain the state of the view, manipulate the model as the result of actions on the view, and trigger events in the view itself.View has a reference to View-Model but View-Model has no information about the View.There is many-to-one relationship between View and View-Model means many View can be mapped to one View-Model. It is completely independent of Views.
 
-# Moel
+# Model
 Model here too plays role of domain or business layer and is data source of pattern. It describe the main logic of application and decides from where the data should be fetched.
 
 # View
